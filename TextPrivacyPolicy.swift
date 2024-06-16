@@ -7,13 +7,7 @@
 
 import SwiftUI
 
-struct UnderlineText:View {
-    var body: some View {
-        Text("Terms of Services").underline().foregroundStyle(.blue).onTapGesture {
-            
-        }
-    }
-}
+
 struct ContentView: View {
     
     @State var count:Int = 0
