@@ -11,3 +11,10 @@ import UIKit
 let versionNumber = (Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString")  ?? "1.0" ) as! String
 let buildNumber = (Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")  ?? "1" ) as! String
 let deviceIdentifier = UIDevice.current.identifierForVendor!.uuidString
+
+
+
+
+
+
+
